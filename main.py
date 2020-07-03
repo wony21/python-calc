@@ -5,6 +5,8 @@ import calculator as calc
 a = input('첫 번째 값을 입력 하세요 :')
 b = input('두 번째 값을 입력 하세요:')
 oper = input('연산자를 입력 하세요:')
+# a, oper, b = input(' 계산식 입력 :').split()
+
 
 # 숫자형인지 판단, 숫자형이 아닌 경우 종료
 if not a.isdecimal() :
