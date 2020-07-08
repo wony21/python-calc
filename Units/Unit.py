@@ -34,8 +34,8 @@ class Unit:
     def print_status(self):
         print('Status :', self.name)
         if self.hp > 0:
-            print('HP :', self.hp)
-            print('MP :', self.mp)
+            print('HP : {}/{}'.format(self.hp, self.max_hp))
+            print('MP : {}/{}'.format(self.mp, self.max_mp))
             print('ATT :', self.attack)
             print('DEF :', self.defence)
         else:
